@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://34y2qzlcnflec.kimi.page/?sat=38736 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; viewBox=&#39;0 0 32 32&#39;%3E%3Ccircle cx=&#39;16&#39; cy=&#39;16&#39; r=&#39;9&#39; fill=&#39;%232563eb&#39;/%3E%3Cellipse cx=&#39;16&#39; cy=&#39;16&#39; rx=&#39;15&#39; ry=&#39;5.5&#39; fill=&#39;none&#39; stroke=&#39;%2338bdf8&#39; stroke-width=&#39;1.6&#39; transform=&#39;rotate(-20 16 16)&#39;/%3E%3C/svg%3E">
+    <title>ORBIT VEIL — Real-time Satellite Tracker</title>
+    <style>
+      html,
+      body {
+        background: #04060a;
+        margin: 0;
+      }
+    </style>
+    <script type="module" crossorigin="" src="./ORBIT VEIL — Real-time Satellite Tracker_files/index-2YwmtxR8.js"></script>
+    <link rel="stylesheet" crossorigin="" href="./ORBIT VEIL — Real-time Satellite Tracker_files/index-BGL6OXCx.css">
+  <script src="./ORBIT VEIL — Real-time Satellite Tracker_files/sdk-seed.js" defer=""></script><script src="./ORBIT VEIL — Real-time Satellite Tracker_files/publish.DQfKjRRp.min.js" async=""></script>
+    <style>
+      .kimi-brand-container {
+        position: fixed;
+        bottom: 16px;
+        right: 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        z-index: 99999999;
+        transition: opacity 0.3s ease;
+      }
+
+      .kimi-brand-close-icon {
+        cursor: pointer;
+        border-radius: 50%;
+        width: 26px;
+        height: 26px;
+        background: #000;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        border: 0.5px solid rgba(255, 255, 255, 0.15);
+      }
+
+      .kimi-brand-container:hover .kimi-brand-close-icon {
+        display: flex;
+      }
+
+      .kimi-brand-info-wrapper {
+        position: relative;
+        display: none;
+        width: 26px;
+        height: 26px;
+        flex-shrink: 0;
+      }
+
+      .kimi-brand-container:hover .kimi-brand-info-wrapper {
+        display: block;
+      }
+
+      .kimi-brand-info-wrapper::before {
+        content: "";
+        position: absolute;
+        right: -8px;
+        bottom: 100%;
+        left: -8px;
+        display: none;
+        height: 12px;
+      }
+
+      .kimi-brand-info-wrapper:hover::before {
+        display: block;
+      }
+
+      .kimi-brand-info-button {
+        cursor: pointer;
+        border-radius: 50%;
+        width: 26px;
+        height: 26px;
+        background: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0.5px solid rgba(255, 255, 255, 0.15);
+        color: rgba(255, 255, 255, 0.84);
+        padding: 0;
+      }
+
+      .kimi-brand-info-button:hover {
+        background: #000;
+      }
+
+      .kimi-brand-info-tooltip {
+        position: fixed;
+        right: 16px;
+        bottom: 52px;
+        box-sizing: border-box;
+        width: 240px;
+        padding: 8px 12px;
+        border-radius: 8px;
+        background: #2b2b2b;
+        color: rgba(255, 255, 255, 0.72);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        font-size: 12px;
+        line-height: 18px;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(4px);
+        transition: opacity 0.15s ease, transform 0.15s ease;
+        z-index: 99999999;
+      }
+
+      .kimi-brand-info-wrapper:hover .kimi-brand-info-tooltip {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+
+      .kimi-brand-info-tooltip::after {
+        content: "";
+        position: absolute;
+        right: 127px;
+        bottom: -5px;
+        width: 10px;
+        height: 10px;
+        background: #2b2b2b;
+        transform: rotate(45deg);
+      }
+
+      .kimi-brand-report-link {
+        color: #6AA6FF;
+        text-decoration: none;
+      }
+
+      .kimi-brand-report-link:hover {
+        color: #A6D0FF;
+      }
+
+      .kimi-brand-link {
+        background: #000;
+        color: white;
+        padding: 4px 6px 4px 4px;
+        border-radius: 16px;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        line-height: 18px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        border: 0.5px solid rgba(255, 255, 255, 0.15);
+        text-decoration: none;
+      }
+
+      .kimi-brand-container:hover .kimi-brand-icon {
+        width: 16px;
+      }
+
+      .kimi-brand-icon {
+        width: 0;
+        overflow: hidden;
+        transition: width 0.3s ease;
+        pointer-events: none;
+      }
+
+      .kimi-brand-avatar {
+        width: 18px;
+        height: 18px;
+        border: 0.5px solid rgba(255, 255, 255, 0.15);
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"><div code-path="src/pages/Home.tsx:323:5" class="relative h-full w-full overflow-hidden bg-[#04060a] font-sans text-slate-200"><div code-path="src/pages/Home.tsx:324:7" class="absolute inset-0"><canvas data-engine="three.js r185" width="1375" height="598" style="display: block; touch-action: none; width: 1375px; height: 598px; cursor: pointer;"></canvas></div><div code-path="src/pages/Home.tsx:328:9" class="pointer-events-none fixed z-30 flex max-w-[180px] items-center gap-1.5 truncate rounded-md border border-white/10 bg-[#0b0f16]/90 px-2.5 py-1 backdrop-blur-sm" style="left: 933.2px; top: 156px;"><span code-path="src/pages/Home.tsx:332:11" class="h-[6px] w-[6px] shrink-0 rounded-full" style="background: rgb(56, 189, 248);"></span><span code-path="src/pages/Home.tsx:336:11" class="truncate font-mono text-[11px] text-slate-200">STARLINK-11224 [DTC]</span></div><div code-path="src/pages/Home.tsx:343:7" class="absolute left-4 top-4 z-20 md:left-7 md:top-6"><div code-path="src/components/hud/IdentityBlock.tsx:7:5" class="pointer-events-none select-none"><h1 code-path="src/components/hud/IdentityBlock.tsx:8:7" class="font-mono text-sm font-semibold tracking-[0.3em] text-slate-100 md:text-xl md:tracking-[0.34em]"><span code-path="src/components/hud/IdentityBlock.tsx:9:9" class="logo-o">O</span>RBIT VEIL</h1><p code-path="src/components/hud/IdentityBlock.tsx:11:7" class="mt-1 font-mono text-[9px] uppercase tracking-[0.12em] text-slate-400 md:text-[11px] md:tracking-[0.18em]"><span code-path="src/components/hud/IdentityBlock.tsx:12:9" class="md:hidden">18,813 objects tracked</span><span code-path="src/components/hud/IdentityBlock.tsx:13:9" class="max-md:hidden">18,813 objects tracked · TLE @ CelesTrak</span></p></div></div><div code-path="src/pages/Home.tsx:348:7" class="absolute right-4 top-4 z-20 md:left-1/2 md:right-auto md:top-6 md:-translate-x-1/2"><div code-path="src/components/hud/ClockCard.tsx:22:5" class="pointer-events-auto flex items-center gap-2 rounded-xl border border-white/10 bg-[#0a0e14]/70 px-2.5 py-2 backdrop-blur-xl md:gap-4 md:px-5 md:py-2.5"><div code-path="src/components/hud/ClockCard.tsx:23:7" class="font-mono text-base font-medium tabular-nums tracking-wider text-slate-100 md:text-2xl">06:46:17</div><div code-path="src/components/hud/ClockCard.tsx:26:7" class="text-right"><div code-path="src/components/hud/ClockCard.tsx:27:9" class="font-mono text-[9px] tracking-wider text-slate-400 md:text-[11px]">2026-07-24 UTC</div><div code-path="src/components/hud/ClockCard.tsx:39:11" class="mt-0.5 flex items-center justify-end gap-1.5 font-mono text-[10px] tracking-wider text-emerald-400"><span code-path="src/components/hud/ClockCard.tsx:40:13" class="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400"></span>LIVE</div></div></div></div><div code-path="src/pages/Home.tsx:353:7" class="absolute left-4 right-4 top-[84px] z-20 md:left-auto md:right-7 md:top-6 md:w-[300px]"><div code-path="src/components/hud/SearchBox.tsx:55:5" class="pointer-events-auto relative"><svg code-path="src/components/hud/SearchBox.tsx:56:7" viewBox="0 0 16 16" class="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 stroke-slate-500" fill="none" stroke-width="1.6"><circle code-path="src/components/hud/SearchBox.tsx:62:9" cx="7" cy="7" r="5"></circle><path code-path="src/components/hud/SearchBox.tsx:63:9" d="M11 11l3.5 3.5"></path></svg><input code-path="src/components/hud/SearchBox.tsx:65:7" placeholder="Search satellite or NORAD id…" class="w-full rounded-xl border border-white/10 bg-[#0a0e14]/70 py-2.5 pl-9 pr-3 font-mono text-xs text-slate-200 placeholder-slate-500 outline-none backdrop-blur-xl focus:border-sky-400/40" value=""></div></div><div code-path="src/pages/Home.tsx:358:7" class="absolute bottom-7 left-7 z-20 max-md:hidden"><div code-path="src/components/hud/LayerPanel.tsx:11:5" class="pointer-events-auto w-[248px] rounded-xl border border-white/10 bg-[#0a0e14]/70 px-4 py-3.5 backdrop-blur-xl max-md:w-full"><div code-path="src/components/hud/LayerPanel.tsx:12:7" class="mb-2 font-mono text-[10px] uppercase tracking-[0.25em] text-slate-500">Layers</div><div code-path="src/components/hud/LayerPanel.tsx:15:7" class="space-y-0.5"><button code-path="src/components/hud/LayerPanel.tsx:17:11" class="flex min-h-[32px] w-full items-center gap-2.5 rounded-md px-2 py-1 text-left transition-opacity hover:bg-white/[0.05] "><span code-path="src/components/hud/LayerPanel.tsx:24:13" class="h-[7px] w-[7px] shrink-0 rounded-full" style="background: rgb(255, 209, 102); box-shadow: rgba(255, 209, 102, 0.4) 0px 0px 5px;"></span><span code-path="src/components/hud/LayerPanel.tsx:28:13" class="flex-1 truncate text-xs text-slate-300">Space Stations</span><span code-path="src/components/hud/LayerPanel.tsx:29:13" class="font-mono text-[11px] tabular-nums text-slate-500">15</span></button><button code-path="src/components/hud/LayerPanel.tsx:17:11" class="flex min-h-[32px] w-full items-center gap-2.5 rounded-md px-2 py-1 text-left transition-opacity hover:bg-white/[0.05] "><span code-path="src/components/hud/LayerPanel.tsx:24:13" class="h-[7px] w-[7px] shrink-0 rounded-full" style="background: rgb(74, 222, 128); box-shadow: rgba(74, 222, 128, 0.4) 0px 0px 5px;"></span><span code-path="src/components/hud/LayerPanel.tsx:28:13" class="flex-1 truncate text-xs text-slate-300">GPS</span><span code-path="src/components/hud/LayerPanel.tsx:29:13" class="font-mono text-[11px] tabular-nums text-slate-500">40</span></button><button code-path="src/components/hud/LayerPanel.tsx:17:11" class="flex min-h-[32px] w-full items-center gap-2.5 rounded-md px-2 py-1 text-left transition-opacity hover:bg-white/[0.05] "><span code-path="src/components/hud/LayerPanel.tsx:24:13" class="h-[7px] w-[7px] shrink-0 rounded-full" style="background: rgb(163, 230, 53); box-shadow: rgba(163, 230, 53, 0.4) 0px 0px 5px;"></span><span code-path="src/components/hud/LayerPanel.tsx:28:13" class="flex-1 truncate text-xs text-slate-300">GLONASS</span><span code-path="src/components/hud/LayerPanel.tsx:29:13" class="font-mono text-[11px] tabular-nums text-slate-500">28</span></button><button code-path="src/components/hud/LayerPanel.tsx:17:11" class="flex min-h-[32px] w-full items-center gap-2.5 rounded-md px-2 py-1 text-left transition-opacity hover:bg-white/[0.05] "><span code-path="src/components/hud/LayerPanel.tsx:24:13" class="h-[7px] w-[7px] shrink-0 rounded-full" style="background: rgb(45, 212, 191); box-shadow: rgba(45, 212, 191, 0.4) 0px 0px 5px;"></span><span code-path="src/components/hud/LayerPanel.tsx:28:13" class="flex-1 truncate text-xs text-slate-300">Galileo</span><span code-path="src/components/hud/LayerPanel.tsx:29:13" class="font-mono text-[11px] tabular-nums text-slate-500">49</span></button><button code-path="src/components/hud/LayerPanel.tsx:17:11" class="flex min-h-[32px] w-full items-center gap-2.5 rounded-md px-2 py-1 text-left transition-opacity hover:bg-white/[0.05] "><span code-path="src/components/hud/LayerPanel.tsx:24:13" class="h-[7px] w-[7px] shrink-0 rounded-full" style="background: rgb(244, 114, 182); box-shadow: rgba(244, 114, 182, 0.4) 0px 0px 5px;"></span><span code-path="src/components/hud/LayerPanel.tsx:28:13" class="flex-1 truncate text-xs text-slate-300">Weather</span><span code-path="src/components/hud/LayerPanel.tsx:29:13" class="font-mono text-[11px] tabular-nums text-slate-500">38</span></button><button code-path="src/components/hud/LayerPanel.tsx:17:11" class="flex min-h-[32px] w-full items-center gap-2.5 rounded-md px-2 py-1 text-left transition-opacity hover:bg-white/[0.05] "><span code-path="src/components/hud/LayerPanel.tsx:24:13" class="h-[7px] w-[7px] shrink-0 rounded-full" style="background: rgb(167, 139, 250); box-shadow: rgba(167, 139, 250, 0.4) 0px 0px 5px;"></span><span code-path="src/components/hud/LayerPanel.tsx:28:13" class="flex-1 truncate text-xs text-slate-300">OneWeb</span><span code-path="src/components/hud/LayerPanel.tsx:29:13" class="font-mono text-[11px] tabular-nums text-slate-500">651</span></button><button code-path="src/components/hud/LayerPanel.tsx:17:11" class="flex min-h-[32px] w-full items-center gap-2.5 rounded-md px-2 py-1 text-left transition-opacity hover:bg-white/[0.05] "><span code-path="src/components/hud/LayerPanel.tsx:24:13" class="h-[7px] w-[7px] shrink-0 rounded-full" style="background: rgb(56, 189, 248); box-shadow: rgba(56, 189, 248, 0.4) 0px 0px 5px;"></span><span code-path="src/components/hud/LayerPanel.tsx:28:13" class="flex-1 truncate text-xs text-slate-300">Starlink</span><span code-path="src/components/hud/LayerPanel.tsx:29:13" class="font-mono text-[11px] tabular-nums text-slate-500">10,787</span></button><button code-path="src/components/hud/LayerPanel.tsx:17:11" class="flex min-h-[32px] w-full items-center gap-2.5 rounded-md px-2 py-1 text-left transition-opacity hover:bg-white/[0.05] "><span code-path="src/components/hud/LayerPanel.tsx:24:13" class="h-[7px] w-[7px] shrink-0 rounded-full" style="background: rgb(232, 238, 247); box-shadow: rgba(232, 238, 247, 0.4) 0px 0px 5px;"></span><span code-path="src/components/hud/LayerPanel.tsx:28:13" class="flex-1 truncate text-xs text-slate-300">Brightest</span><span code-path="src/components/hud/LayerPanel.tsx:29:13" class="font-mono text-[11px] tabular-nums text-slate-500">157</span></button><button code-path="src/components/hud/LayerPanel.tsx:17:11" class="flex min-h-[32px] w-full items-center gap-2.5 rounded-md px-2 py-1 text-left transition-opacity hover:bg-white/[0.05] "><span code-path="src/components/hud/LayerPanel.tsx:24:13" class="h-[7px] w-[7px] shrink-0 rounded-full" style="background: rgb(251, 113, 133); box-shadow: rgba(251, 113, 133, 0.4) 0px 0px 5px;"></span><span code-path="src/components/hud/LayerPanel.tsx:28:13" class="flex-1 truncate text-xs text-slate-300">Debris · Cosmos-2251</span><span code-path="src/components/hud/LayerPanel.tsx:29:13" class="font-mono text-[11px] tabular-nums text-slate-500">591</span></button><button code-path="src/components/hud/LayerPanel.tsx:17:11" class="flex min-h-[32px] w-full items-center gap-2.5 rounded-md px-2 py-1 text-left transition-opacity hover:bg-white/[0.05] "><span code-path="src/components/hud/LayerPanel.tsx:24:13" class="h-[7px] w-[7px] shrink-0 rounded-full" style="background: rgb(251, 146, 60); box-shadow: rgba(251, 146, 60, 0.4) 0px 0px 5px;"></span><span code-path="src/components/hud/LayerPanel.tsx:28:13" class="flex-1 truncate text-xs text-slate-300">Debris · Iridium-33</span><span code-path="src/components/hud/LayerPanel.tsx:29:13" class="font-mono text-[11px] tabular-nums text-slate-500">110</span></button><button code-path="src/components/hud/LayerPanel.tsx:17:11" class="flex min-h-[32px] w-full items-center gap-2.5 rounded-md px-2 py-1 text-left transition-opacity hover:bg-white/[0.05] "><span code-path="src/components/hud/LayerPanel.tsx:24:13" class="h-[7px] w-[7px] shrink-0 rounded-full" style="background: rgb(239, 68, 68); box-shadow: rgba(239, 68, 68, 0.4) 0px 0px 5px;"></span><span code-path="src/components/hud/LayerPanel.tsx:28:13" class="flex-1 truncate text-xs text-slate-300">Debris · Fengyun-1C</span><span code-path="src/components/hud/LayerPanel.tsx:29:13" class="font-mono text-[11px] tabular-nums text-slate-500">1,912</span></button><button code-path="src/components/hud/LayerPanel.tsx:17:11" class="flex min-h-[32px] w-full items-center gap-2.5 rounded-md px-2 py-1 text-left transition-opacity hover:bg-white/[0.05] "><span code-path="src/components/hud/LayerPanel.tsx:24:13" class="h-[7px] w-[7px] shrink-0 rounded-full" style="background: rgb(154, 167, 189); box-shadow: rgba(154, 167, 189, 0.4) 0px 0px 5px;"></span><span code-path="src/components/hud/LayerPanel.tsx:28:13" class="flex-1 truncate text-xs text-slate-300">Other Active</span><span code-path="src/components/hud/LayerPanel.tsx:29:13" class="font-mono text-[11px] tabular-nums text-slate-500">4,435</span></button></div></div></div><button code-path="src/pages/Home.tsx:367:7" class="absolute bottom-[92px] left-4 z-20 rounded-full border border-white/10 bg-[#0a0e14]/75 px-4 py-2 font-mono text-[10px] uppercase tracking-[0.25em] text-slate-400 backdrop-blur-xl md:hidden">Layers</button><div code-path="src/pages/Home.tsx:384:7" class="absolute bottom-5 left-1/2 z-20 max-w-[calc(100vw-16px)] -translate-x-1/2 pb-[env(safe-area-inset-bottom)]"><div code-path="src/components/hud/TimeController.tsx:12:5" class="pointer-events-auto flex items-center gap-0.5 overflow-x-auto rounded-full border border-white/10 bg-[#0a0e14]/75 p-1.5 backdrop-blur-xl"><button code-path="src/components/hud/TimeController.tsx:16:11" class="min-w-[44px] rounded-full px-2 py-2 font-mono text-[11px] tabular-nums transition-colors md:py-1.5 text-slate-400 hover:bg-white/10 hover:text-slate-200">-240×</button><button code-path="src/components/hud/TimeController.tsx:16:11" class="min-w-[44px] rounded-full px-2 py-2 font-mono text-[11px] tabular-nums transition-colors md:py-1.5 text-slate-400 hover:bg-white/10 hover:text-slate-200">-60×</button><button code-path="src/components/hud/TimeController.tsx:16:11" class="min-w-[44px] rounded-full px-2 py-2 font-mono text-[11px] tabular-nums transition-colors md:py-1.5 text-slate-400 hover:bg-white/10 hover:text-slate-200">-10×</button><button code-path="src/components/hud/TimeController.tsx:16:11" class="min-w-[44px] rounded-full px-2 py-2 font-mono text-[11px] tabular-nums transition-colors md:py-1.5 text-slate-400 hover:bg-white/10 hover:text-slate-200">+10×</button><button code-path="src/components/hud/TimeController.tsx:16:11" class="min-w-[44px] rounded-full px-2 py-2 font-mono text-[11px] tabular-nums transition-colors md:py-1.5 text-slate-400 hover:bg-white/10 hover:text-slate-200">+60×</button><button code-path="src/components/hud/TimeController.tsx:16:11" class="min-w-[44px] rounded-full px-2 py-2 font-mono text-[11px] tabular-nums transition-colors md:py-1.5 text-slate-400 hover:bg-white/10 hover:text-slate-200">+240×</button><button code-path="src/components/hud/TimeController.tsx:29:7" title="Pause" class="ml-1 flex h-8 w-8 items-center justify-center rounded-full text-slate-300 hover:bg-white/10"><svg code-path="src/components/hud/TimeController.tsx:35:11" viewBox="0 0 12 12" class="h-3 w-3 fill-current"><rect code-path="src/components/hud/TimeController.tsx:36:13" x="1.5" y="1" width="3.2" height="10" rx="0.6"></rect><rect code-path="src/components/hud/TimeController.tsx:37:13" x="7.3" y="1" width="3.2" height="10" rx="0.6"></rect></svg></button><button code-path="src/components/hud/TimeController.tsx:45:7" class="ml-1 flex items-center gap-1.5 rounded-full px-3.5 py-2 font-mono text-[11px] tracking-wider transition-colors md:py-1.5 bg-emerald-400 text-emerald-950"><span code-path="src/components/hud/TimeController.tsx:53:9" class="inline-block h-1.5 w-1.5 rounded-full bg-emerald-900"></span>LIVE</button></div></div><div code-path="src/pages/Home.tsx:389:7" class="pointer-events-none absolute bottom-1.5 left-7 z-10 hidden font-mono text-[10px] tracking-wider text-slate-600 md:block">TLE CelesTrak · SGP4 satellite.js · Imagery NASA Blue Marble</div><div code-path="src/pages/Home.tsx:392:7" class="pointer-events-none absolute bottom-1.5 right-7 z-10 hidden font-mono text-[10px] tabular-nums tracking-wider text-slate-600 md:block">60 fps</div><div code-path="src/components/hud/DetailPanel.tsx:56:5" class="pointer-events-auto absolute z-20 rounded-xl border border-white/10 bg-[#0a0e14]/80 backdrop-blur-xl
+        max-md:inset-x-3 max-md:bottom-[92px] max-md:max-h-[46vh] max-md:overflow-y-auto
+        md:right-7 md:top-1/2 md:w-[300px] md:-translate-y-1/2"><div code-path="src/components/hud/DetailPanel.tsx:61:7" class="flex items-start justify-between gap-2 px-4 pt-4"><div code-path="src/components/hud/DetailPanel.tsx:62:9" class="min-w-0"><div code-path="src/components/hud/DetailPanel.tsx:63:11" class="font-mono text-[10px] uppercase tracking-[0.25em]" style="color: rgb(154, 167, 189);">Other Active</div><div code-path="src/components/hud/DetailPanel.tsx:69:11" class="mt-1 truncate font-mono text-base font-semibold tracking-wide text-white">GONETS-M 4</div><div code-path="src/components/hud/DetailPanel.tsx:72:11" class="mt-0.5 font-mono text-[11px] text-slate-500">NORAD 38736</div></div><button code-path="src/components/hud/DetailPanel.tsx:76:9" class="flex h-7 w-7 shrink-0 items-center justify-center rounded-md text-slate-500 hover:bg-white/10 hover:text-slate-200" aria-label="Close"><svg code-path="src/components/hud/DetailPanel.tsx:81:11" viewBox="0 0 10 10" class="h-2.5 w-2.5 stroke-current" stroke-width="1.4"><path code-path="src/components/hud/DetailPanel.tsx:82:13" d="M1 1l8 8M9 1l-8 8"></path></svg></button></div><div code-path="src/components/hud/DetailPanel.tsx:88:9" class="mt-3 grid grid-cols-2 gap-1.5 px-4"><div code-path="src/components/hud/DetailPanel.tsx:90:13" class="rounded-lg border border-white/[0.07] bg-white/[0.03] px-2.5 py-2"><div code-path="src/components/hud/DetailPanel.tsx:91:15" class="font-mono text-[9px] uppercase tracking-[0.18em] text-slate-500">Altitude</div><div code-path="src/components/hud/DetailPanel.tsx:94:15" class="mt-0.5 font-mono text-[13px] tabular-nums text-slate-100">1503.6 km</div></div><div code-path="src/components/hud/DetailPanel.tsx:90:13" class="rounded-lg border border-white/[0.07] bg-white/[0.03] px-2.5 py-2"><div code-path="src/components/hud/DetailPanel.tsx:91:15" class="font-mono text-[9px] uppercase tracking-[0.18em] text-slate-500">Speed</div><div code-path="src/components/hud/DetailPanel.tsx:94:15" class="mt-0.5 font-mono text-[13px] tabular-nums text-slate-100">7.12 km/s</div></div><div code-path="src/components/hud/DetailPanel.tsx:90:13" class="rounded-lg border border-white/[0.07] bg-white/[0.03] px-2.5 py-2"><div code-path="src/components/hud/DetailPanel.tsx:91:15" class="font-mono text-[9px] uppercase tracking-[0.18em] text-slate-500">Latitude</div><div code-path="src/components/hud/DetailPanel.tsx:94:15" class="mt-0.5 font-mono text-[13px] tabular-nums text-slate-100">68.33° N</div></div><div code-path="src/components/hud/DetailPanel.tsx:90:13" class="rounded-lg border border-white/[0.07] bg-white/[0.03] px-2.5 py-2"><div code-path="src/components/hud/DetailPanel.tsx:91:15" class="font-mono text-[9px] uppercase tracking-[0.18em] text-slate-500">Longitude</div><div code-path="src/components/hud/DetailPanel.tsx:94:15" class="mt-0.5 font-mono text-[13px] tabular-nums text-slate-100">23.36° E</div></div><div code-path="src/components/hud/DetailPanel.tsx:90:13" class="rounded-lg border border-white/[0.07] bg-white/[0.03] px-2.5 py-2"><div code-path="src/components/hud/DetailPanel.tsx:91:15" class="font-mono text-[9px] uppercase tracking-[0.18em] text-slate-500">Period</div><div code-path="src/components/hud/DetailPanel.tsx:94:15" class="mt-0.5 font-mono text-[13px] tabular-nums text-slate-100">115.7 min</div></div><div code-path="src/components/hud/DetailPanel.tsx:90:13" class="rounded-lg border border-white/[0.07] bg-white/[0.03] px-2.5 py-2"><div code-path="src/components/hud/DetailPanel.tsx:91:15" class="font-mono text-[9px] uppercase tracking-[0.18em] text-slate-500">Inclination</div><div code-path="src/components/hud/DetailPanel.tsx:94:15" class="mt-0.5 font-mono text-[13px] tabular-nums text-slate-100">82.48°</div></div></div><div code-path="src/components/hud/DetailPanel.tsx:106:7" class="mt-2 px-4 font-mono text-[10px] tracking-wider text-slate-600">TLE 2026-07-15 23:34:28 UTC</div><div code-path="src/components/hud/DetailPanel.tsx:110:7" class="mt-3 flex gap-1.5 px-4 pb-4"><button code-path="src/components/hud/DetailPanel.tsx:118:11" class="flex-1 rounded-lg border px-2 py-1.5 font-mono text-[10px] tracking-wider transition-colors border-sky-400/40 bg-sky-400/15 text-sky-200">Orbit</button><button code-path="src/components/hud/DetailPanel.tsx:118:11" class="flex-1 rounded-lg border px-2 py-1.5 font-mono text-[10px] tracking-wider transition-colors border-sky-400/40 bg-sky-400/15 text-sky-200">Footprint</button><button code-path="src/components/hud/DetailPanel.tsx:118:11" class="flex-1 rounded-lg border px-2 py-1.5 font-mono text-[10px] tracking-wider transition-colors border-white/10 text-slate-400 hover:bg-white/5">Follow</button></div></div></div></div>
+  
+
+
+  <div class="kimi-brand-container">
+    <div class="kimi-brand-close-icon">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12.499 3.50216C12.7226 3.72574 12.7226 4.08825 12.499 4.31184L8.81035 8.00029L12.4972 11.6872C12.7208 11.9107 12.7208 12.2733 12.4972 12.4968C12.2736 12.7204 11.9111 12.7204 11.6875 12.4968L8.00066 8.80998L4.31221 12.4986C4.10582 12.705 3.78106 12.7209 3.55646 12.5463L3.50252 12.4986C3.27893 12.2751 3.27893 11.9126 3.50252 11.689L7.19098 8.00029L3.50107 4.31038C3.27748 4.0868 3.27748 3.72429 3.50107 3.5007C3.72465 3.27711 4.08716 3.27711 4.31075 3.5007L8.00066 7.19061L11.6893 3.50216C11.8957 3.29577 12.2205 3.27989 12.4451 3.45453L12.499 3.50216Z" fill="white" fill-opacity="0.84"></path>
+      </svg>
+    </div>
+
+    <div class="kimi-brand-info-wrapper">
+      <button type="button" class="kimi-brand-info-button" aria-label="AI content notice">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 6.75V12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"></path>
+          <circle cx="8" cy="4" r="1" fill="currentColor"></circle>
+        </svg>
+      </button>
+      <div class="kimi-brand-info-tooltip">
+        This webpage contains AI-generated content, which may have been edited by users. Please verify it carefully and do not submit any personal information. If you believe the content infringes rights or is illegal, you may <a href="https://www.kimi.com/report?from=website&amp;reportUrl=https%3A%2F%2F34y2qzlcnflec.kimi.page%2F" target="_blank" rel="noopener" class="kimi-brand-report-link">submit a report to request a review</a>.
+      </div>
+    </div>
+
+    <a href="https://www.kimi.com/agent" target="_blank" class="kimi-brand-link">
+      <img src="data:image/png;base64,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" alt="Kimi" class="kimi-brand-avatar">
+      <span>Kimi Agent</span>
+      <svg width="16" height="16" class="kimi-brand-icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.2925 8.54311C14.5253 8.30855 14.5247 7.92983 14.2909 7.69611L10.5986 4.00381C10.3643 3.76949 9.98442 3.76949 9.7501 4.00381C9.51579 4.23812 9.51579 4.61802 9.7501 4.85233L12.4181 7.52038H1.86667C1.5353 7.52038 1.26667 7.78901 1.26667 8.12038C1.26667 8.45175 1.5353 8.72038 1.86667 8.72038H12.4255L9.74857 11.4167C9.51511 11.6519 9.51648 12.0318 9.75164 12.2652C9.9868 12.4987 10.3667 12.4973 10.6002 12.2622L14.2925 8.54311Z" fill="white" fill-opacity="0.84"></path>
+      </svg>
+    </a>
+  </div>
+    </body></html>
