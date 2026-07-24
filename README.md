@@ -36,5 +36,5 @@ Upon launching the application, users are greeted with a high-fidelity 3D Earth.
 
 ---
 
-### 📝 *Note for your README:*
-*This overview is designed to be a "living" document. You can replace the bracketed information with your specific tools. If your AI is used for a specific purpose (e.g., "Style Transfer" or "Super-Resolution"), be sure to highlight that clearly in the **Key Features** section.*
+If you wanna try it----I simply putted the ready-made html file, download it and enjoy the 3D interactive analysis of sattellite orbits.
+
